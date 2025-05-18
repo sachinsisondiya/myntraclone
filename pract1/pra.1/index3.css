@@ -1,0 +1,48 @@
+ *{
+            margin: 0;
+            padding: 0;
+           
+            
+        }
+        .same{
+            color: rgb(196, 196, 219);
+            background-color: blueviolet;
+            margin: 5px;
+            font-size: 30px;
+
+        }
+        #d1{
+            text-align: center;
+            text-decoration: coral underline;
+            text-decoration-style:dotted;
+            text-transform: uppercase;
+            line-height: 80px;
+
+        }
+        #d2{
+            color: rgb(252, 108, 6);
+            text-align:center;
+            text-decoration: cornflowerblue line-through;
+            text-decoration-style: wavy;
+            text-transform: capitalize;
+            font-weight: 600px;
+            font-family: 40px;
+    
+        }
+    #d3{
+        line-height: 0px;
+    }
+    #d4{
+        line-height: 20px;
+        font-style: italic;
+    }
+    #fnt{
+        font-family: 'Dance Script',cursive;
+    }
+    #icn{
+        font-size: larger;
+        height: 200px;
+        width: 300px;
+        color: blue;
+    }
+    /*font family work according to priority if the one is not accept by the browser thn other can accept whoose priority is low*/

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>loading bar</title>
+    <style>
+        .b{
+           
+            height:30px;
+            width:300px;
+            
+            
+            background-color: rgb(250, 148, 15);
+            border-radius: 20px;
+            position: relative;
+            
+            
+        }
+        #bx{
+             border: 5px solid black;
+
+           
+
+        }
+        #bx1{
+           
+           
+            background-color: rgba(0, 255, 255, 0.315);
+            position: absolute;
+            
+            animation-name: sk;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+        
+
+
+        }
+        @keyframes sk {
+            0% {width:0%}
+            95%{width:80%}
+            98%{width:90%}
+            100%{width:100%}
+        }
+    </style>
+</head>
+<body>
+    <div id="bx" class="b"> 
+        <div id="bx1" class="b"></div>
+    </div>
+    
+</body>
+</html>

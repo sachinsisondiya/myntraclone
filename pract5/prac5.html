@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice  set</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        nav{
+            padding: 5px;
+        }
+       nav a{
+        margin-left:55px;
+        padding:5px;
+        text-decoration: none;
+        
+
+       }
+       header{
+        background-color: rgba(20, 236, 236, 0.856);
+        height: 30px;
+       }
+       main{
+        background-color: rgb(102, 74, 129);
+        height:300px;
+       }
+        #d1{
+            height: 100px;
+            width: 100px;
+            margin-left: 10px;
+            background-color: rgba(10, 247, 10, 0.788);
+            border-radius:10px;
+            text-align: center;
+        
+            
+        }
+        #container{
+            background-color: rgb(221, 52, 52);
+            border-width: 20px;
+            border:3px solid black;
+            width:fit-content;
+
+        }
+        #d3{
+            z-index: 2;/* for only overlap or 3d*/
+            position: absolute;
+            left: 20px;
+        }
+        .box{
+            background-color: rgb(55, 104, 6);
+            margin-top: 3px;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+
+        }
+        #d5{
+            margin-top: 5px;
+            height: 70px;
+            width: 70px;
+            background-color: rgb(240, 10, 10);
+            position: fixed;
+            right: 10px;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+            font-size: larger;
+            position:fixed;
+            bottom:0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">contact</a>
+            <a href="#">help</a>
+        </nav>
+             
+    </header>
+
+
+    <main>
+        <div id="d1">block1</div>
+        <div id="container">
+        <div id="d2" class="box">block2</div>
+        <div id="d3" class="box">block3</div>
+        <div id="d4" class="box">block4</div>
+        </div>
+        <div id="d5"></div>
+        
+    </main>
+ <footer>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nostrum, nisi explicabo nemo, quaerat, atque doloremque debitis iure nam quo molestias minima tempora. Eum aperiam, consectetur hic odit dignissimos officiis!</p>
+
+    </footer>
+    
+</body>
+</html>

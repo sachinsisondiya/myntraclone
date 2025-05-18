@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>grid</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+           
+        }
+        .container{
+        
+            display: grid;
+            grid-template-columns: 50px 50px;
+            grid-template-rows:  50px 50px;
+        }
+        #d1{
+            background-color: rgb(17, 236, 236);
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+         #d2{
+            background-color: rgb(123, 236, 17);
+            grid-column: 2 / 2;
+            grid-row: 1 / 2;
+        }
+         #d3{
+            background-color: rgba(224, 6, 213, 0.842);
+            grid-column: 2 / 2;
+            grid-row: 2 / 2;
+        }
+         #d4{
+            background-color: rgb(250, 81, 39);
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+        }
+        @media screen and (max-width: 250px) {
+            .box{
+                border:5px solid red;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+        <div id="d1" class="dd">my</div>
+        <div id="d2" class="dd">name</div>
+        <div id="d3" class="dd">sachin</div>
+         <div id="d4" class="dd">kumar</div>
+        </div>
+        <div class="box"></div>
+        
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
